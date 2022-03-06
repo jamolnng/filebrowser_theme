@@ -1,11 +1,4 @@
 {
-  "settings": {
-    "branding": {
-      "name": "jfs",
-      "disableExternal": true,
-      "files": "theme/"
-    }
-  },
   "root": "/srv",
   "port": 80,
   "log": "stdout",
