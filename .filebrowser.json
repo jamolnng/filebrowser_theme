@@ -6,6 +6,6 @@
     "branding": {
       "name": "jfs",
       "disableExternal": true,
-      "files": "/theme",
+      "files": "/theme"
   }
 }
