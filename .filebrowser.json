@@ -1,4 +1,5 @@
 {
+  "settings": {
     "port": 80,
     "log": "stdout",
     "database": "/database.db",
@@ -7,5 +8,6 @@
       "name": "jfs",
       "disableExternal": true,
       "files": "./theme"
+    }
   }
 }
