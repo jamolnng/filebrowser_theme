@@ -1,0 +1,13 @@
+version: "3"
+services:
+  filebrowser:
+    container_name: filebrowser
+    image: filebrowser/filebrowser
+    ports:
+      - 8080:80
+    volumes:
+      - /home/jesse/:/srv
+      - /home/jesse/docker/filebrowser/database.db:/database.db
+      - /home/jesse/docker/filebrowser/.filebrowser.json:/.filebrowser.json
+      - /home/jesse/docker/filebrowser/theme:/theme
+    user: 1000:1000
