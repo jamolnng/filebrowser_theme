@@ -11,3 +11,4 @@ services:
       - /home/jesse/docker/filebrowser/.filebrowser.json:/.filebrowser.json
       - /home/jesse/docker/filebrowser/theme:/theme
     user: 1000:1000
+    
