@@ -3,6 +3,7 @@ services:
   filebrowser:
     container_name: filebrowser
     image: filebrowser/filebrowser
+    command: bash -c "/filebrowser config set --branding.name \"jfs\" --branding.files \"/theme"\ --branding.disableExternal && /filebrowser"
     ports:
       - 8080:80
     volumes:
