@@ -1,13 +1,15 @@
 {
   "settings": {
-    "port": 80,
-    "log": "stdout",
-    "database": "/database.db",
-    "root": "/srv",
     "branding": {
       "name": "jfs",
       "disableExternal": true,
       "files": "./theme"
     }
-  }
+  },
+  "server": {
+    "root": "/srv",
+    "port": 80,
+    "log": "stdout"
+  },
+  "database": "/database.db"
 }
